@@ -1,4 +1,4 @@
-name: Telegram PYQ Bot
+name: Talhathi poll Bot
 
 on:
   workflow_dispatch:
