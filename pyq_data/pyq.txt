@@ -6401,3 +6401,102 @@ A: २०६ *
 B: २१०
 C: १८०
 D: २५०
+Z: संदर्भ: PSI-2013
+Q: The rich is not always dishonest. Which of the following options will be used in place of the underlined part of the sentence to correct it?
+A: (1) Was
+B: (2) Will
+C: (3) Are *
+D: (4) Can
+Z: संदर्भ: MPSC Agri Pre 2012
+Q: Select the correct sentence/sentences.
+(1) I am ill since three days.
+(2) I have been ill for three days.
+(3) I have been ill since Friday.
+(4) Both (2) and (3)
+A: (1)
+B: (2)
+C: (3)
+D: (4) *
+Z: संदर्भ: STI-2012
+Q: Many a hill _ crossed by the battalion. Choose the correct option to fill in the blank.
+A: (1) was *
+B: (2) were
+C: (3) may
+D: (4) none of these
+Z: संदर्भ: PSI-2012
+Q: One of my friends ___ national champion in archery. Fill in the blank with the suitable verbs from.
+A: (1) is *
+B: (2) are
+C: (3) were
+D: (4) are not
+Z: संदर्भ: ASO-1994 / Engi. Pre. -2012
+Q: Which of the following sentences are correct? Repeated
+(a) Either the workers or the director is to blame for this.
+(b) No person of that name live here.
+(c) Either the director or the workers are to blame for this.
+(d) I have ordered the cement but none have yet arrived.
+Which of the above is/ are the correct sentences?
+A: (1) (a) and (c) only *
+B: (2) (b) and (d) only
+C: (3) (a) and (b) only
+D: (4) (c) and (d) only
+Z: संदर्भ: STI-2012
+Q: Identify the incorrect sentence from the following alternatives.
+A: (1) Bread and butter is a wholesome food.
+B: (2) Two pounds of coffee costs seven and six pence.
+C: (3) There are eggs and bacon for breakfast. *
+D: (4) John and Mary have gone for a holiday.
+Z: संदर्भ: ASO-2011
+Q: Choose the correct sentence from the following:
+A: (1) Neither of the two boys were successful in the examination.
+B: (2) Neither of the both boys were successful in the examination.
+C: (3) Neither of the two boys are successful in the examination.
+D: (4) Neither of the two boys is successful in the examination. *
+Z: संदर्भ: Agri Pre 2011
+Q: Neither the boy nor his sister........... to school. Choose the best alternative:
+A: (1) are going
+B: (2) go
+C: (3) goes *
+D: (4) will go
+Z: संदर्भ: Agri Pre 2011
+Q: Choose the correct form of the verb 'The ship along with its crew ...........lost'.
+A: (1) were
+B: (2) must
+C: (3) was *
+D: (4) need
+Z: संदर्भ: Dept.STI-2011
+Q: We shouted several times, but there __ no answer Choose the proper option to fill in the blank.
+A: (1) is
+B: (2) are
+C: (3) was *
+D: (4) were
+Z: संदर्भ: Dept.PSI-2011
+Q: Choose the correct form of a verb from the following to fill in the blank. Each of the students ___ given a pencil.
+A: (1) was *
+B: (2) were
+C: (3) are
+D: (4) shall
+Z: संदर्भ: Dept.PSI-2011
+Q: Choose the correct sentence of the following:
+A: (1) Neither of these books is mine. *
+B: (2) Neither of these books are mine.
+C: (3) Neither of these books were mine.
+D: (4) Neither of these books mine.
+Z: संदर्भ: PSI-2011
+Q: Police _ looking for a man with one eye. Choose the correct verb to agree with the subject.
+A: (1) is
+B: (2) are *
+C: (3) had
+D: (4) has been
+Z: संदर्भ: PSI-2010
+Q: It is a terribly hot climate. Identify the parts of speech of the underlined words.
+A: (1) Main verb, Adjective, Adverb
+B: (2) Aux verb, Adverb, Adjective
+C: (3) Main verb, Adverb, Adjective *
+D: (4) Aux verb, Adjective, Adverb
+Z: संदर्भ: Engg. Pre.-2016 / PSI-2010 repeated
+Q: The general with all his soldiers _ killed. Which of the following options can fill in the blank in the above sentence.
+A: (1) were
+B: (2) are
+C: (3) is
+D: (4) was *
