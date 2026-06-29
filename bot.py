@@ -3,7 +3,8 @@ import requests, os, random
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHANNEL_ID = os.getenv("CHANNEL_ID")
 
-FILE = "pyq_data/pyq.txt"
+# 📂 इथे आपण तिन्ही फाइल्सची लिस्ट तयार केली आहे
+FILES = ["pyq_data/pyq.txt", "pyq_data/marathi.pyq", "pyq_data/English.pyq"]
 BATCH_SIZE = int(os.getenv("BATCH_SIZE", "1"))  # eg. 10 morning / 10 evening
 
 
@@ -70,17 +71,27 @@ def send_poll(q, options, correct):
 
 # ================= MAIN =================
 
-with open(FILE, "r", encoding="utf-8") as f:
-    questions = parse_questions(f.read())
+all_questions = []
 
-print("TOTAL QUESTIONS AVAILABLE:", len(questions))
+# 🔄 तिन्ही फाइल्स एक-एक करून वाचण्यासाठी लूप
+for file_path in FILES:
+    if os.path.exists(file_path): # फाइल अस्तित्वात आहे की नाही हे चेक करण्यासाठी
+        with open(file_path, "r", encoding="utf-8") as f:
+            file_questions = parse_questions(f.read())
+            all_questions.extend(file_questions) # सर्व प्रश्न एकाच लिस्टमध्ये एकत्र केले
+            print(f"Loaded {len(file_questions)} questions from {file_path}")
+    else:
+        print(f"⚠️ Warning: File not found -> {file_path}")
 
-if not questions:
-    print("❌ No questions found")
+print("TOTAL QUESTIONS AVAILABLE (ALL FILES):", len(all_questions))
+
+if not all_questions:
+    print("❌ No questions found in any of the files")
     exit()
 
-# 🔀 RANDOM selection (duplicates allowed)
-selected = random.sample(questions, k=min(BATCH_SIZE, len(questions)))
+# 🔀 तिन्ही फाइल्सच्या एकत्र केलेल्या प्रश्नांमधून RANDOM selection
+selected = random.sample(all_questions, k=min(BATCH_SIZE, len(all_questions)))
 
 for q in selected:
     send_poll(q["poll"], q["options"], q["correct"])
+    
