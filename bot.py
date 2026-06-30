@@ -4,7 +4,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHANNEL_ID = os.getenv("CHANNEL_ID")
 
 # 📂 इथे आपण तिन्ही फाइल्सची लिस्ट तयार केली आहे
-FILES = ["pyq_data/pyq.txt", "pyq_data/marathi.pyq", "pyq_data/English.pyq"]
+FILES = ["pyq_data/pyq.txt", "pyq_data/Marathi.pyq", "pyq_data/English.pyq"]
 BATCH_SIZE = int(os.getenv("BATCH_SIZE", "1"))  # eg. 10 morning / 10 evening
 
 
